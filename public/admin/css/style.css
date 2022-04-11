@@ -1,0 +1,103 @@
+body, .btn {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.5;
+} 
+.nav-second-level li a:focus, .nav-second-level li a:hover, .nav-thrid-level li a:focus, .nav-thrid-level li a:hover {
+    color: #ddd;
+}
+.nav-second-level li.mm-active>a, .nav-third-level li.mm-active>a {
+    color: #177ccc;
+}
+.logo-box {background-color: #177ccc;}
+.card-header {
+    padding: 1rem 1.5rem;
+    margin-bottom: 0;
+    background-color: #FFF;
+    border-bottom: 1px solid #f3f3f3;
+}
+.logo-sm {
+    background-image: url("{{ asset('images/logo.png') }}");
+    height: 70px;
+    font-size: 10px;
+    background-position: center;
+    background-size: cover;
+}
+.btn { border-radius: 0;}
+.structure-emy{
+    background: #177ccc;
+    color: #FFF;
+    padding: 0.5rem 1rem;
+}
+.table td, .table th {
+    font-weight: 400;
+    padding: 0.5rem;
+    vertical-align: middle;
+}
+thead {
+    background: #177ccc;
+    color: #fff;
+}
+a:hover {
+    color: #7ac4ff;
+    text-decoration: none;
+}
+.badge {
+    color: #fff;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+    font-size: 11px; 
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+} 
+
+/* ==== REDIO ==== */ 
+input:disabled {
+    cursor: default;
+    background: #ddd;
+    border-color: rgba(118, 118, 118, 0.3);
+} 
+.cc-selector input{
+    margin: 0;
+    padding: 0;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+} 
+.cc-selector-2 input{
+    position:absolute;
+    z-index:999;
+} 
+.cc-selector-2 input:active +.drinkcard-cc, .cc-selector input:active +.drinkcard-cc{opacity: .9;}
+.cc-selector-2 input:checked +.drinkcard-cc, .cc-selector input:checked +.drinkcard-cc{
+    -webkit-filter: none;
+    -moz-filter: none;
+    filter: none;
+}
+.drinkcard-cc{
+    font-weight: 200;
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block; 
+    -webkit-transition: all 100ms ease-in;
+    -moz-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+    -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+    -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+    filter: brightness(1.8) grayscale(1) opacity(.7);
+    padding: 0.7rem;
+    background: #ddd;
+    color: #FFF; 
+}
+.drinkcard-cc:hover{
+    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+    -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+    filter: brightness(1.2) grayscale(.5) opacity(.9);
+} 
+/* ==== REDIO ==== */ 
+.dtr-details {width: 100%;}
+a.text-primary:focus, a.text-primary:hover {
+    color: #0e436d!important;
+}
